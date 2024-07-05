@@ -1,0 +1,11 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.buttonContainer {
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
