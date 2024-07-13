@@ -43,7 +43,7 @@ export default function App() {
 
   const totalFeedback = feedbacks.bad + feedbacks.good + feedbacks.neutral;
 
-  const perentageOfPositiveFeedbacks = Math.round(
+  const percentageOfPositiveFeedbacks = Math.round(
     (feedbacks.good / totalFeedback) * 100
   );
 
@@ -65,7 +65,7 @@ export default function App() {
         <Feedback
           feedbacks={feedbacks}
           totalFeedbacks={totalFeedback}
-          perentageOfPositiveFeedbacks={perentageOfPositiveFeedbacks}
+          percentageOfPositiveFeedbacks={percentageOfPositiveFeedbacks}
         />
       ) : (
         <Notification />
